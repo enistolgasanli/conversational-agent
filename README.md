@@ -20,14 +20,15 @@ Clone the project and navigate to the project directory:
 
 ```bash
   git clone <repo-url>
-  cd langgraph-chatbot
+  cd conversational-agent
 ```
 
 Create a virtual environment:
 
 ```bash
   python -m venv env
-  source env/bin/activate
+  source env/bin/activate  # Mac/Linux
+  env\Scripts\activate     # Windows
 ```
 
 Install the dependencies:
